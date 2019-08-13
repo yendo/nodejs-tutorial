@@ -1,0 +1,19 @@
+{
+  "name": "nodejs_tutorial",
+  "version": "0.1.0",
+  "description": "Node.js Tutorial",
+  "main": "index.js",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-node": "^9.1.0",
+    "jest": "^24.8.0",
+    "request": "^2.88.0"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "jest"
+  }
+}
